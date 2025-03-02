@@ -1,3 +1,84 @@
-body{
-    background-color: blue;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    
 }
+
+
+nav ul li a{
+    text-decoration: none;
+    color: hotpink;
+    font-weight: bold;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 26px;
+   
+}
+#main-nav ul{
+    display: flex;
+    gap: 20px;
+   list-style: none;
+   margin: 0%;
+   padding: 0%;
+
+}
+body{
+background-image:url(../images/photo-1740676176411-816376ae5655.avif);
+}
+.nav-container{
+    background:linear-gradient(to right,white, rgb(226, 167, 177));
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+}
+.info span{
+    
+        font-family: "Rubik Dirt", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      color:rgb(95, 105, 116);
+      
+}
+.info h2{
+    display: flex;
+    justify-content: center;
+}
+.info h3{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.icons ul li{
+    display: inline;
+    gap: 30px;
+    
+}
+.icons ul li a i{
+    font-size: 40px;
+
+        
+}
+section{
+    padding: 100px 20px;
+    margin-bottom: 40px;
+    min-height: 50vh;
+}
+
+
+
